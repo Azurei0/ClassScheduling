@@ -1,10 +1,17 @@
 # Introduction
 
-Describe the algorithms of your choice
+For the solution of the Class Scheduling, we have decided to use 
+non-preemptive **Shortest Job First** (**SJF**) algorithm
+AND
+non-preemptive **Priority Scheduling** algorithm
+to schedule the classes.
 
 # Consideration
 
-Describe what you have considered
+We consider that the class:
+1.  Cannot be interfered or stopped halfway
+
+_Thus, the reason for why non-preemptive methods of the algorithms are chosen_
 
 # Analysis
 
@@ -12,11 +19,11 @@ Describe what you have considered
 
 Give an analysis of your algo and compare it with the other two
 
-## Algo2
+## Non-Preemptive Shortest Job First
 
 Give an analysis of your algo and compare it with the other two
 
-## Algo3
+## Non-Preemptive Priority Scheduling
 
 Give an analysis of your algo and compare it with the other two
 
