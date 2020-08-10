@@ -15,11 +15,11 @@ _Thus, the reason for why non-preemptive methods of the algorithms are chosen_
 
 # Analysis
 
-## FCFS
+## First Come First Serve (FCFS)
 
 Give an analysis of your algo and compare it with the other two
 
-## Non-Preemptive Shortest Job First
+## Non-Preemptive Shortest Job First (SJF)
 
 Give an analysis of your algo and compare it with the other two
 
