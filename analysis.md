@@ -17,13 +17,22 @@ _Thus, the reason for why non-preemptive methods of the algorithms are chosen_
 
 ## First Come First Serve (FCFS)
 
-Give an analysis of your algo and compare it with the other two
+ > In FCFS algorithm, the classes are sorted depending on their respective: </br>
+ 1. preferred ***Arrival time*** </br>
+ **IF** two or more classes have the same arrival time </br>
+ 2. The classes respective priorities will be taken into consideration
 
 ## Non-Preemptive Shortest Job First (SJF)
 
-Give an analysis of your algo and compare it with the other two
+> In non-preemptive SJF algortihm, classes are sorted depending on their:
+1. shortest burst time *OR* duration </br>
+**IF** two or more classes have the same arrival time </br>
+2. classes is sorted based on its preferred **Arrival Time**
 
 ## Non-Preemptive Priority Scheduling
 
-Give an analysis of your algo and compare it with the other two
+> In non-preemptive Priority Scheduling, classes are sorted depending on:
+1. The class **Priority level** </br>
+**IF** two or more classes have the same priority </br>
+2. classes is sorted depending on its **Arrival Time**
 
