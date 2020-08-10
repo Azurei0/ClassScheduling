@@ -2,9 +2,9 @@
 Section 04
 
 # Group Members
-**-** MUHAMMAD AZRI BIN ZULKARNAIN           1814867
-**-** MUHAMMAD HAZIM BIN MIR MUNIR           1812911
-**-** MUHAMMAD 'AFIF HAZIM BIN MAT NAJIB     1811167
+**-** MUHAMMAD AZRI BIN ZULKARNAIN           1814867 <br>
+**-** MUHAMMAD HAZIM BIN MIR MUNIR           1812911 <br>
+**-** MUHAMMAD 'AFIF HAZIM BIN MAT NAJIB     1811167 <br>
 
 
 # ClassScheduling Assignment
