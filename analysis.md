@@ -29,10 +29,11 @@ _Thus, the reason for why non-preemptive methods of the algorithms are chosen_
 **IF** two or more classes have the same arrival time </br>
 2. classes is sorted based on its preferred **Arrival Time**
 
+// in non-preemptive SJF algorithm, all arrival time is considered as 0
+
 ## Non-Preemptive Priority Scheduling
 
 > In non-preemptive Priority Scheduling, classes are sorted depending on:
 1. The class **Priority level** </br>
 **IF** two or more classes have the same priority </br>
 2. classes is sorted depending on its **Arrival Time**
-
