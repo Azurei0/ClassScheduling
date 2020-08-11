@@ -15,7 +15,7 @@ bool sortProcesses(Process a, Process b)
     if(a.priority!=b.priority)
       return (a.priority > b.priority); //higher means higher priority
     else
-      return (a.arrival_time < b.arrival_time) //lower arrival_time is considered first
+      return (a.arrival_time < b.arrival_time); //lower arrival_time is considered first
 } 
   
 // Function to find the waiting time for all processes 
