@@ -26,9 +26,10 @@ struct Process
    int arrival_time;   //prefered arrival time
 };
 
-Process proc[ ] = {{2201, 3, 2, 1},
+Process proc[] = {{2201, 3, 2, 1},
                    {3401, 2, 3, 2},
-                   {1103, 1, 1, 3}};
+                   {1103, 1, 1, 3}
+                  };
 ```
  
 ## First Come First Serve (FCFS)
@@ -41,12 +42,13 @@ Process proc[ ] = {{2201, 3, 2, 1},
 #### Output:
 ```
 Order in which process gets executed
-2201    3401    1103
+2201    3401   1103
 
- Processes  Burst time  Waiting time  Turn around time
-    2201         3            0               3        
-    3401         2            3               5        
-    1103         1            5               6        
+| Processes | Burst time | Waiting time | Turn around time |
+|-----------|------------|--------------|------------------|
+|    2201   |     3      |      0       |        3         |
+|    3401   |     2      |      3       |        5         |
+|    1103   |     1      |      5       |        6         |
    
 Average waiting time = 2.66667
 Average turn around time = 4.66667
@@ -67,7 +69,7 @@ Average turn around time = 4.66667
 #### Output:
 ```
 Order in which process gets executed
-1103 3401 2201
+1103  3401  2201
 
 | Processes | Burst time | Waiting time | Turn around time |
 |-----------|------------|--------------|------------------|
@@ -94,7 +96,7 @@ Average turn around time = 3.33333
 #### Output:
 ```
 Order in which processes gets executed
-3401 2201 1103
+3401  2201  1103
 
 | Processes | Burst time | Waiting time | Turn around time |
 |-----------|------------|--------------|------------------|
