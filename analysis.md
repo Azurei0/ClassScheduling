@@ -27,8 +27,8 @@ struct Process
 };
 
 Process proc[ ] = {{2201, 3, 2, 1},
-                  {3401, 2, 3, 2},
-                  {1103, 1, 1, 3}};
+                   {3401, 2, 3, 2},
+                   {1103, 1, 1, 3}};
 ```
  
 ## First Come First Serve (FCFS)
@@ -39,18 +39,18 @@ Process proc[ ] = {{2201, 3, 2, 1},
  2. whichever classes that is earlier in the queue will execute first
 
 #### Output:
-
-Order in which process gets executed </br>
+```
+Order in which process gets executed
 2201    3401    1103
 
-| Processes | Burst time | Waiting time | Turn around time |
-|-----------|------------|--------------|------------------|
-|    2201   |      3     |       0      |         3        |
-|    3401   |      2     |       3      |         5        |
-|    1103   |      1     |       5      |         6        |
+ Processes  Burst time  Waiting time  Turn around time
+    2201         3            0               3        
+    3401         2            3               5        
+    1103         1            5               6        
    
-Average waiting time = 2.66667 </br>
+Average waiting time = 2.66667
 Average turn around time = 4.66667
+```
 
 #### Analysis of First Come First Serve (FCFS) scheduling algorithm
 - It is worst than the Non-Preemptive Shortest Job First (SJF) and Non-Preemptive Priority Scheduling because it has the slowest average waiting and turn around time between the 3 scheduling algorithms.
@@ -65,8 +65,8 @@ Average turn around time = 4.66667
 // in non-preemptive SJF algorithm, all arrival time is considered as 0
 
 #### Output:
-
-Order in which process gets executed </br>
+```
+Order in which process gets executed
 1103 3401 2201
 
 | Processes | Burst time | Waiting time | Turn around time |
@@ -75,8 +75,9 @@ Order in which process gets executed </br>
 |    3401   |      2     |       1      |         3        |
 |    1103   |      3     |       3      |         6        |
 
-Average waiting time = 1.33333 </br>
+Average waiting time = 1.33333
 Average turn around time = 3.33333
+```
 
 #### Analysis of Non-Preemptive Shortest Job First (SJF) scheduling algorithm
 - It is better than First Come First Serve (FCFS) and Non-Preemptive Priority Scheduling because it has the fastest average waiting and turn around time between the 3 scheduling algorithms.
@@ -91,8 +92,8 @@ Average turn around time = 3.33333
 //because it is non-preemptive most of the time arrival time is considered 0
 
 #### Output:
-
-Order in which processes gets executed </br>
+```
+Order in which processes gets executed
 3401 2201 1103
 
 | Processes | Burst time | Waiting time | Turn around time |
@@ -101,8 +102,9 @@ Order in which processes gets executed </br>
 |    2201   |      3     |       2      |         5        |
 |    1103   |      1     |       5      |         6        |
 
-Average waiting time = 2.33333 </br>
+Average waiting time = 2.33333
 Average turn around time = 4.33333
+```
 
 #### Analysis of Non-Preemptive Priority scheduling algorithm
 - It is better than First Come First Serve (FCFS) scheduling but worst than Non-Preemptive Shortest Job First (SJF) scheduling because the average waiting and turn around time are faster than First Come First Serve (FCFS) but slower than Shortest Job First (SJF).
