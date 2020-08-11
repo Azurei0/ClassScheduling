@@ -15,7 +15,7 @@ _Thus, the reason for why non-preemptive methods of the algorithms are chosen_
 
 # Analysis
 
-input:
+#### Input:
 
 struct Process </br>
 { </br>
