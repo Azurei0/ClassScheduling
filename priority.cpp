@@ -12,7 +12,10 @@ struct Process
 // sort the processes based on priority
 bool sortProcesses(Process a, Process b) 
 { 
-    return (a.priority > b.priority); 
+    if(a.priority!=b.priority)
+      return (a.priority > b.priority); //higher means higher priority
+    else
+      return (a.arrival_time < b.arrival_time) //lower arrival_time is considered first
 } 
   
 // Function to find the waiting time for all processes 
