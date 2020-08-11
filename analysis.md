@@ -20,7 +20,7 @@ _Thus, the reason for why non-preemptive methods of the algorithms are chosen_
  > In FCFS algorithm, the classes are sorted depending on their respective: </br>
  1. preferred ***Arrival time*** </br>
  **IF** two or more classes have the same arrival time </br>
- 2. The classes respective priorities will be taken into consideration
+ 2. whichever classes that is earlier in the queue will execute first
 
 ## Non-Preemptive Shortest Job First (SJF)
 
