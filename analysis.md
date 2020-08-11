@@ -28,8 +28,7 @@ struct Process
 
 Process proc[] = {{2201, 3, 2, 1},
                   {3401, 2, 3, 2},
-                  {1103, 1, 1, 3}
-                  };
+                  {1103, 1, 1, 3}};
 ```
  
 ## First Come First Serve (FCFS)
