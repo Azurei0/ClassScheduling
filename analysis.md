@@ -25,10 +25,10 @@ struct Process </br>
    int arrival_time;   //prefered arrival time </br>
 };
 
-Process proc[] = {{2201, 3, 2, 1}, </br>
+Process proc[ ] = {{2201, 3, 2, 1}, </br>
                   {3401, 2, 3, 2}, </br>
                   {1103, 1, 1, 3}}; </br>
-
+ 
 ## First Come First Serve (FCFS)
 
  > In FCFS algorithm, the classes are sorted depending on their respective: </br>
