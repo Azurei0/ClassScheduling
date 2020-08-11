@@ -22,6 +22,19 @@ _Thus, the reason for why non-preemptive methods of the algorithms are chosen_
  **IF** two or more classes have the same arrival time </br>
  2. whichever classes that is earlier in the queue will execute first
 
+Output:
+
+Order in which process gets executed
+2201    3401    1103
+
+Processes   Burst time   Waiting time   Turn around time
+   1            3           0             3
+   2            2           3             5
+   3            1           5             6
+   
+Average waiting time = 2.66667
+Average turn around time = 4.66667
+
 ## Non-Preemptive Shortest Job First (SJF)
 
 > In non-preemptive SJF algortihm, classes are sorted depending on their:
@@ -31,6 +44,19 @@ _Thus, the reason for why non-preemptive methods of the algorithms are chosen_
 
 // in non-preemptive SJF algorithm, all arrival time is considered as 0
 
+Output:
+
+Order in which process gets executed
+1103 3401 2201
+
+Processes  Burst time  Waiting time  Turn around time
+ 1103           1        0               1
+ 3401           2        1               3
+ 2201           3        3               6
+
+Average waiting time = 1.33333
+Average turn around time = 3.33333
+
 ## Non-Preemptive Priority Scheduling
 
 > In non-preemptive Priority Scheduling, classes are sorted depending on:
@@ -39,3 +65,16 @@ _Thus, the reason for why non-preemptive methods of the algorithms are chosen_
 2. classes is sorted depending on its **Arrival Time**
 
 //because it is non-preemptive most of the time arrival time is considered 0
+
+Output:
+
+Order in which processes gets executed
+3401 2201 1103
+
+Processes   Burst time   Waiting time   Turn around time
+   3401         2           0             2
+   2201         3           2             5
+   1103         1           5             6
+
+Average waiting time = 2.33333
+Average turn around time = 4.33333
