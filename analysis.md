@@ -24,15 +24,15 @@ _Thus, the reason for why non-preemptive methods of the algorithms are chosen_
 
 Output:
 
-Order in which process gets executed
+Order in which process gets executed </br>
 2201    3401    1103
 
-Processes   Burst time   Waiting time   Turn around time
-   1            3           0             3
-   2            2           3             5
-   3            1           5             6
+Processes   Burst time   Waiting time   Turn around time </br>
+   1            3           0             3 </br>
+   2            2           3             5 </br>
+   3            1           5             6 </br>
    
-Average waiting time = 2.66667
+Average waiting time = 2.66667 </br>
 Average turn around time = 4.66667
 
 ## Non-Preemptive Shortest Job First (SJF)
