@@ -37,3 +37,5 @@ _Thus, the reason for why non-preemptive methods of the algorithms are chosen_
 1. The class **Priority level** </br>
 **IF** two or more classes have the same priority </br>
 2. classes is sorted depending on its **Arrival Time**
+
+//because it is non-preemptive most of the time arrival time is considered 0
