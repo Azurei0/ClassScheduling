@@ -17,17 +17,19 @@ _Thus, the reason for why non-preemptive methods of the algorithms are chosen_
 
 #### Input:
 
-struct Process </br>
-{ </br>
-   int ccode;          // course code </br>
-   int duration;       // class duration </br>
-   int priority;       //priority </br>
-   int arrival_time;   //prefered arrival time </br>
+```
+struct Process
+{
+   int ccode;          // course code
+   int duration;       // class duration
+   int priority;       //priority
+   int arrival_time;   //prefered arrival time
 };
 
-Process proc[ ] = {{2201, 3, 2, 1}, </br>
-                  {3401, 2, 3, 2}, </br>
-                  {1103, 1, 1, 3}}; </br>
+Process proc[ ] = {{2201, 3, 2, 1},
+                  {3401, 2, 3, 2},
+                  {1103, 1, 1, 3}};
+```
  
 ## First Come First Serve (FCFS)
 
