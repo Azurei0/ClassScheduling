@@ -17,9 +17,9 @@ struct Process
 bool comparison(Process a, Process b)
 {
     if(a.duration!=b.duration)
-     return (a.duration < b.duration);
+     return (a.duration < b.duration); //lower duration first
     else
-     return (a.priority < b.priority);
+     return (a.arrival_time < b.arrival_time); //lower arrival_time is considered first
 }
  
 // function to find the waiting time for all processes
