@@ -16,7 +16,10 @@ struct Process
 */
 bool comparison(Process a, Process b)
 {
-    return (a.duration < b.duration);
+    if(a.duration!=b.duration)
+     return (a.duration < b.duration);
+    else
+     return (a.priority < b.priority);
 }
  
 // function to find the waiting time for all processes
