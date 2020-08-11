@@ -28,7 +28,7 @@ Order in which process gets executed </br>
 2201    3401    1103
 
 Processes   Burst time   Waiting time   Turn around time </br>
-   1            3           0             3 </br>
+   1\t          3\t         0\t           3 </br>
    2            2           3             5 </br>
    3            1           5             6 </br>
    
