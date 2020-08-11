@@ -1,6 +1,3 @@
-/* Simple C++ program for implementation 
-of FCFS scheduling */
-
 #include<iostream>
 
 using namespace std;
@@ -59,12 +56,20 @@ void findAverageTime( int processes[], int n, int bt[])
 int main()
 {
     // process ids
-    int processes[] = { 1, 2, 3, 4};
+    int processes[] = {2201, 3401, 1103};
     int n = sizeof processes / sizeof processes[0];
  
     // burst time of all processes
-    int  burst_time[] = {21, 3, 6, 2};
- 
+    int  burst_time[] = {3, 2, 1};
+ 	
+ 	cout << "Order in which process gets executed\n";
+    for (int i = 0 ; i < n; i++)
+    {
+        cout << processes[i] <<"\t";
+        if(i==n-1)
+        cout << "\n";
+    }
+    
     findAverageTime(processes, n,  burst_time);
     
     return 0;
