@@ -15,6 +15,20 @@ _Thus, the reason for why non-preemptive methods of the algorithms are chosen_
 
 # Analysis
 
+input:
+
+struct Process
+{
+   int ccode;          // course code
+   int duration;       // class duration
+   int priority;       //priority
+   int arrival_time;   //prefered arrival time
+};
+
+Process proc[] = {{2201, 3, 2, 1}, 
+                  {3401, 2, 3, 2}, 
+                  {1103, 1, 1, 3}};
+
 ## First Come First Serve (FCFS)
 
  > In FCFS algorithm, the classes are sorted depending on their respective: </br>
@@ -22,7 +36,7 @@ _Thus, the reason for why non-preemptive methods of the algorithms are chosen_
  **IF** two or more classes have the same arrival time </br>
  2. whichever classes that is earlier in the queue will execute first
 
-Output:
+#### Output:
 
 Order in which process gets executed </br>
 2201    3401    1103
@@ -35,6 +49,9 @@ Processes   Burst time   Waiting time   Turn around time </br>
 Average waiting time = 2.66667 </br>
 Average turn around time = 4.66667
 
+#### Analysis of First Come First Serve (FCFS) scheduling algorithm
+- It is worst than the Non-Preemptive Shortest Job First (SJF) and Non-Preemptive Priority Scheduling because it has the slowest average waiting and turn around time between the 3 scheduling algorithms.
+
 ## Non-Preemptive Shortest Job First (SJF)
 
 > In non-preemptive SJF algortihm, classes are sorted depending on their:
@@ -44,7 +61,7 @@ Average turn around time = 4.66667
 
 // in non-preemptive SJF algorithm, all arrival time is considered as 0
 
-Output:
+#### Output:
 
 Order in which process gets executed </br>
 1103 3401 2201
@@ -57,6 +74,9 @@ Processes  Burst time  Waiting time  Turn around time </br>
 Average waiting time = 1.33333 </br>
 Average turn around time = 3.33333
 
+#### Analysis of Non-Preemptive Shortest Job First (SJF) scheduling algorithm
+- It is better than First Come First Serve (FCFS) and Non-Preemptive Priority Scheduling because it has the fastest average waiting and turn around time between the 3 scheduling algorithms.
+
 ## Non-Preemptive Priority Scheduling
 
 > In non-preemptive Priority Scheduling, classes are sorted depending on:
@@ -66,7 +86,7 @@ Average turn around time = 3.33333
 
 //because it is non-preemptive most of the time arrival time is considered 0
 
-Output:
+#### Output:
 
 Order in which processes gets executed </br>
 3401 2201 1103
@@ -78,3 +98,6 @@ Processes   Burst time   Waiting time   Turn around time </br>
 
 Average waiting time = 2.33333 </br>
 Average turn around time = 4.33333
+
+#### Analysis of Non-Preemptive Priority scheduling algorithm
+- It is better than First Come First Serve (FCFS) scheduling but worst than Non-Preemptive Shortest Job First (SJF) scheduling because the average waiting and turn around time are faster than First Come First Serve (FCFS) but slower than Shortest Job First (SJF).
