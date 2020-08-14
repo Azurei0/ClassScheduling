@@ -6,6 +6,10 @@ AND
 non-preemptive **Priority Scheduling** algorithm
 to schedule the classes.
 
+**Shortest Job First (SJF) scheduling** is an algorithm where processes are executed in ascending order based on the burst time. The process with the shortest burst time is will be executed first and the order will go until the longest burst time. SJF can be divided to pre-emptive or non-preemptive. In **non-preemptive Shortest Job First (SJF),** once a process has been allocated to the CPU, the process keeps the CPU until the process has finished its execution.
+
+In the **non-preemptive Priority Scheduling,** processes are scheduled according to the priority number assigned to them. Once the process gets scheduled, it will run till the completion. The lower the priority number, the higher the priority of the process. If a new process arrives with a higher priority than the current running process, the incoming process is put at the head of the ready queue, which means after the execution of the current process it will be processed.
+
 # Consideration
 
 We consider that the class:
