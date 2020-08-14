@@ -2,7 +2,7 @@
 
 For the solution of the Class Scheduling, we have decided to use **First Come, First Serve (FCFS)** algorithm,
 non-preemptive **Shortest Job First** (**SJF**) algorithm
-AND
+AND,
 non-preemptive **Priority Scheduling** algorithm
 to schedule the classes.
 
