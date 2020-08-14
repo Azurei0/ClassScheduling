@@ -1,10 +1,12 @@
 # Introduction
 
-For the solution of the Class Scheduling, we have decided to use 
+For the solution of the Class Scheduling, we have decided to use **First Come, First Serve (FCFS)** algorithm,
 non-preemptive **Shortest Job First** (**SJF**) algorithm
 AND
 non-preemptive **Priority Scheduling** algorithm
 to schedule the classes.
+
+The **First Come, First Serve (FCFS)** scheduling algorithm is just like its name, processes will be allocated or schedules according to their arrival time or which one comes first. Process which comes first in the ready queue will get the CPU first. The lesser the arrival time, the sooner will the process gets the CPU. The FCFS scheduling algorithm is non-preemptive algorithm which means the process priority does not matter. If a process with very least priority is being executed and suddenly there is another higher priority process arrives, the higher priority process will have to wait.
 
 **Shortest Job First (SJF) scheduling** is an algorithm where processes are executed in ascending order based on the burst time. The process with the shortest burst time is will be executed first and the order will go until the longest burst time. SJF can be divided to pre-emptive or non-preemptive. In **non-preemptive Shortest Job First (SJF),** once a process has been allocated to the CPU, the process keeps the CPU until the process has finished its execution.
 
