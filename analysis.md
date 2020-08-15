@@ -80,7 +80,7 @@ Order in which process gets executed
 |-----------|------------|--------------|------------------|
 |    1103   |      1     |       0      |         1        |
 |    3401   |      2     |       1      |         3        |
-|    1103   |      3     |       3      |         6        |
+|    2201   |      3     |       3      |         6        |
 
 Average waiting time = 1.33333
 Average turn around time = 3.33333
