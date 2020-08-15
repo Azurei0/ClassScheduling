@@ -16,6 +16,7 @@ In the **non-preemptive Priority Scheduling,** processes are scheduled according
 
 We consider that the class:
 1.  Cannot be interfered or stopped halfway
+2.  The given class is final, there will be no addition of class in the middle of Class scheduling
 
 _Thus, the reason for why non-preemptive methods of the algorithms are chosen_
 
