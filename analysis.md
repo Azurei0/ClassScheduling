@@ -50,7 +50,7 @@ Process proc[] = {{2201, 3, 2, 1},
 Order in which process gets executed
 2201    3401   1103
 
-| Processes | Burst time | Waiting time | Turn around time |
+|  Classes  | Burst time | Waiting time | Turn around time |
 |-----------|------------|--------------|------------------|
 |    2201   |     3      |      0       |        3         |
 |    3401   |     2      |      3       |        5         |
@@ -77,7 +77,7 @@ Average turn around time = 4.66667
 Order in which process gets executed
 1103  3401  2201
 
-| Processes | Burst time | Waiting time | Turn around time |
+|  Classes  | Burst time | Waiting time | Turn around time |
 |-----------|------------|--------------|------------------|
 |    1103   |      1     |       0      |         1        |
 |    3401   |      2     |       1      |         3        |
@@ -104,7 +104,7 @@ Average turn around time = 3.33333
 Order in which processes gets executed
 3401  2201  1103
 
-| Processes | Burst time | Waiting time | Turn around time |
+|  Classes  | Burst time | Waiting time | Turn around time |
 |-----------|------------|--------------|------------------|
 |    3401   |      2     |       0      |         2        |
 |    2201   |      3     |       2      |         5        |
