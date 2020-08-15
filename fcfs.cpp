@@ -38,7 +38,7 @@ void findAverageTime( int processes[], int n, int bt[])
     findTurnAroundTime(processes, n, bt, wt, tat);
  
     // display processes along with all details
-    cout << "Classes  "<< " Burst time  "<< " Waiting time  " << " Turn around time\n";
+    cout << "Classes   "<< " Burst time  "<< " Waiting time  " << " Turn around time\n";
  
     // calculate total waiting time and total turn around time
     for (int i = 0; i < n; i++)
